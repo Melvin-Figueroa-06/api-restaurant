@@ -325,6 +325,7 @@ router.post("/restaurant", verifytoken,(req, res) => {
     });
   });
 });
+
 router.get("/restaurant",verifytoken ,(req, res) => {
   var skip = 0;
   var limit = 10;
